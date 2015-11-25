@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+    
+    <FrameLayout
+        android:id="@+id/right_videoview_layout_priview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/img_bg_recording"
+        >    
+    </FrameLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="0dp"
+        android:gravity="center"
+        >
+
+        <ImageButton
+            android:id="@+id/right_videoview_layout_button_replay"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/img_btn_files"
+            android:contentDescription="@string/tupiananniu" />
+
+        <ImageButton
+            android:id="@+id/right_videoview_layout_button_recording"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/img_btn_recording"
+            android:contentDescription="@string/tupiananniu" />
+      
+		<ImageButton
+		    android:id="@+id/right_videoview_layout_button_keeplong"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/img_btn_keeplong"
+		    android:contentDescription="@string/tupiananniu"
+		    />
+		
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="UrlUploadLocation">http://weixin.carslink.net/camera/in</string>
+    <string name="UrlTackPicture">http://weixin.carslink.net/camera</string>
+    <string name="UrlSendFailureMsg">http://weixin.carslink.net/wxio/sendFailureMsg</string>
+    <string name="UrlGetQRCode">http://weixin.carslink.net/reg/api_make_code</string>
+    <string name="UrlRegOrlogin">http://weixin.carslink.net/reg/api_reg_device</string>
+    <string name="UrlLogout">http://weixin.carslink.net/reg/api_unbundled</string>
+</resources>

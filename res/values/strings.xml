@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">即录仪</string>
+    <string name="action_settings">设置</string>
+    <string name="tupiananniu">图片按钮</string>
+
+    <!-- left_menu_layout -->
+    <string name="left_menu_layout_string_map">地图</string>
+    <string name="left_menu_layout_string_erweima">二维码</string>
+    <string name="left_menu_layout_string_setting">设置</string>
+
+    <!-- keeplong_radio_layout -->
+    <string name="keeplong_radio_layout_string_long">永久视频</string>
+    <string name="keeplong_radio_layout_string_short">短时间</string>
+    <string name="keeplong_radio_layout_string_interim">临时视频</string>
+
+    <!-- contextmenu -->
+    <string name="contextmenu_open">打开</string>
+    <string name="contextmenu_delete">删除</string>
+    <string name="contextmenu_rename">重命名</string>
+    <string name="contextmenu_attribute">属性</string>
+
+    <!-- list_file_layout -->
+    <string name="list_file_layout_mainmenu">返回</string>
+
+    <!-- left_cqbox_layout -->
+    <string name="left_cqbox_layout_tellyou">请用微信扫描下面二维码绑定</string>
+
+    <!-- aboutus_activity_layout.xml -->
+    <string name="aboutus_activity_layout_string_aboutus">关于我们</string>
+    <string name="aboutus_activity_layout_string_update">检查更新</string>
+    <string name="aboutus_activity_layout_string_version">版本信息</string>
+
+    <!-- ************分割线************ -->
+    <string name="fav">保留</string>
+    <string name="fav_long">保留录像</string>
+    <string name="fav_0">临</string>
+    <string name="fav_1">长</string>
+    <string name="fav_2">短</string>
+    <string name="restart">重启</string>
+    <string name="focus">聚焦</string>
+    <string name="flash">闪光</string>
+    <string name="night">夜间</string>
+    <string name="exit">返回</string>
+    <string name="gps_off">GPS 关</string>
+    <string name="rec">记录</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="file">录像管理</string>
+    <string name="no_network">请检查网络</string>
+    <string name="setting_title_auto_start">车辆启动自动录影</string>
+    <string name="setting_title_fenbianlv">行车录影分辨率</string>
+    <string name="setting_title_autocarfrontpic">定时拍摄车前照片</string>
+    <string name="setting_title_videoduration">录像段长度</string>
+    <string name="setting_title_videofoldersize">录像最大可用空间</string>
+    <string name="setting_title_sim">账号</string>
+    <string name="setting_title_storage">设备内存信息</string>
+    <string name="setting_title_about">关于我们</string>
+    <string name="title_activity_file_manage">FileManageActivity</string>
+    <string name="isButton">这是图片按钮</string>
+    <string name="time">00:00:00</string>
+
+    <!-- 又是一条分割线 -->
+    <string name="app_id">输入您讯飞的appid</string>
+    <string name="preference_default_tts_role">xiaoyan</string>
+    <string name="preference_key_tts_speed">tts_speed</string>
+    <string name="preference_title_tts_speed">语速</string>
+    <string name="preference_default_tts_speed">50</string>
+    <string name="preference_dialog_title_tts_speed">选择语速</string>
+    <string name="preference_key_tts_volume">tts_volume</string>
+    <string name="preference_title_tts_volume">音量</string>
+    <string name="preference_default_tts_volume">50</string>
+    <string name="preference_dialog_title_tts_volume">选择音量</string>
+    <string name="preference_key_tts_pitch">tts_pitch</string>
+    <string name="preference_title_tts_pitch">语调</string>
+    <string name="preference_default_tts_pitch">50</string>
+    <string name="navi_strategy_speed">速度最快</string>
+    <string name="navi_strategy_cost">避免收费</string>
+    <string name="navi_strategy_distance">距离最短</string>
+    <string name="navi_strategy_nohighway">不走高速快速路</string>
+    <string name="navi_strategy_timenojam">时间最短且躲避拥堵</string>
+    <string name="navi_strategy_costnojam">避免收费且躲避拥堵</string>
+    <string name="input_des">输入目的地名称</string>
+    <string name="start_navi">开始导航</string>
+    <string name="back">返回</string>
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+    <string name="wrong_route">路径规划出错</string>
+    <string name="no_destination">请先输入目的地</string>
+</resources>

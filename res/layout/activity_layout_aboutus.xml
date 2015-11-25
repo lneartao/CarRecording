@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/shallowgrays"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/aboutus_activity_layout_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/img_btn_return2"
+            android:gravity="center_vertical"
+            android:background="@drawable/selector_setting_list"
+            android:padding="2dp"
+            android:textColor="@color/shallowblud" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/aboutus_activity_layout_aboutus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutus_activity_layout_string_aboutus"
+            style="@style/aboutUsText"
+             />
+
+        <Button
+            android:id="@+id/aboutus_activity_layout_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutus_activity_layout_string_update"
+            style="@style/aboutUsText"
+            />
+
+        <Button
+            android:id="@+id/aboutus_activity_layout_version"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutus_activity_layout_string_version"
+            style="@style/aboutUsText" />
+    </LinearLayout>
+
+</LinearLayout>

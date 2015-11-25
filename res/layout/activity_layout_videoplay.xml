@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <!--
+         <VideoView
+        android:id="@+id/videoplay_videoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    -->
+
+    <FrameLayout
+        android:id="@+id/videoplayer_layout_videoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/tran_grays"
+        android:orientation="vertical">
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:orientation="horizontal"
+	        android:paddingLeft="5dp"
+	        android:paddingRight="5dp" >
+	
+	        <TextView
+	            android:id="@+id/videoplayer_layout_textview_currenttime"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/time"/>
+	
+	        <SeekBar
+	            android:id="@+id/videoplayer_layout_progressbar"
+	            android:layout_width="0dp"
+	            android:layout_height="wrap_content"
+	            android:layout_weight="1"
+	            android:maxHeight="15dp"
+	            android:minHeight="15dp"
+	            android:paddingLeft="10dp"
+	            android:paddingRight="10dp"
+	            android:progressDrawable="@drawable/layerlist_seekbar"
+	            android:thumb="@drawable/img_thumb" />
+	
+	        <TextView
+	            android:id="@+id/videoplayer_layout_textview_totaltime"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/time" />
+	    </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="bottom">
+
+            <ImageButton
+                android:id="@+id/videoplayer_layout_button_return"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/img_btn_return"
+                android:contentDescription="@string/tupiananniu" />
+
+            <ImageButton
+                android:id="@+id/videoplayer_layout_button_start_pause"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/img_btn_player"
+                android:contentDescription="@string/tupiananniu" />
+
+            <ImageButton
+                android:id="@+id/videoplayer_layout_button_back"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_toLeftOf="@id/videoplayer_layout_button_start_pause"
+                android:background="@drawable/img_btn_back"
+                android:contentDescription="@string/tupiananniu" />
+
+            <ImageButton
+                android:id="@+id/videoplayer_layout_button_go"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/videoplayer_layout_button_start_pause"
+                android:background="@drawable/img_btn_go"
+                android:contentDescription="@string/tupiananniu" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
